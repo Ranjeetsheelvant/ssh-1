@@ -7,3 +7,4 @@ area=`expr $l \* $b`
 echo "area of rectangle of length $l and breadth $b =$area"
 
 
+

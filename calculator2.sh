@@ -12,7 +12,7 @@ case $ch in
 	1)res=`echo $a + $b | bc`
 		;;
 
-	2)res=`echo"scale=2; $a / $b" | bc`
+	2)res=`echo "scale=2; $a / $b" | bc`
 		;;
 esac
 echo "result: $res"
