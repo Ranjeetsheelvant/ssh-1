@@ -1,0 +1,17 @@
+#!/bin/sh
+echo "enter the file or directory"
+read fileordirectory
+if [ -f$filedirectory ]
+then  
+echo "its a file"
+cat $fileordirectort
+
+elif [ -d is -fileordirectory ]
+
+then  
+echo "its a directory"
+ls -l$ file or directory 
+fi
+fi
+
+
