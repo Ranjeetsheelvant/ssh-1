@@ -1,6 +1,7 @@
 #!/bin/sh
 sudo apt update -y
 sudo apt install mysql-server
+#new one
 mysql --version
 if [ $? -ne 0 ]
 then 
